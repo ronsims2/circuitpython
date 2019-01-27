@@ -1,0 +1,5 @@
+# View ports the device is connect to
+ls /dev/tty.*
+
+#Connect to the board
+screen /dev/tty.usbmodem144101 115200
